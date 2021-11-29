@@ -37,7 +37,7 @@ export const listData = {
     },
     {
       key: 1,
-      title: 'Movies',
+      title: 'Films',
       icon: 'film',
       cards: [
         {
@@ -61,7 +61,7 @@ export const listData = {
         },
         {
           key: 1,
-          title: 'Skyrim',
+          title: 'CS',
         },
       ],
     },
