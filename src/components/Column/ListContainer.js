@@ -1,7 +1,6 @@
 import {connect} from 'react-redux';
 import List from './List';
 
-
 const mapStateToProps = (state, props) => ({
   columns: getColumnsForList(state, props.id),
 });
