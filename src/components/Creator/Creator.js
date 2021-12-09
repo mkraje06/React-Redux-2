@@ -12,8 +12,6 @@ class Creator extends React.Component {
 
   static defaultProps = {
     text: 'Add new item',
-    action: PropTypes.func,
-    variant: PropTypes.node,
   }
 
   static defaultProps = {
