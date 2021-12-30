@@ -14,10 +14,6 @@ class Creator extends React.Component {
     text: 'Add new item',
   }
 
-  static defaultProps = {
-    text: 'Add new item',
-  }
-
   state = {
     value: '',
     visibleButtons: false,
@@ -32,7 +28,7 @@ class Creator extends React.Component {
   }
 
   handleOK = () => {
-    if(this.state.value != ''){
+    if(this.state.value != '') {
       this.props.action(this.state.value);
       this.setState({
         value: '',
