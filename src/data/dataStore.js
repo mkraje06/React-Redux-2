@@ -92,6 +92,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Take care about grandma',
+    description: 'Buy some food and drinks',
+    image: 'https://cdn.pixabay.com/photo/2013/07/12/18/39/grandmother-153657_960_720.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Clean computer table',
+    description: 'Clean my room and take out the trash!',
+    image: 'https://cdn.pixabay.com/photo/2016/11/18/13/03/apple-1834328_960_720.jpg',
+  },
 ];
 
 const columns = [

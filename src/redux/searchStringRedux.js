@@ -12,7 +12,6 @@ const createActionName = name => `app/${reducerName}/${name}`;
 export const CHANGE = createActionName('CHANGE');
 // action creators
 
-
 // reducer
 export default function reducer(statePart = '', action = {}) {
   switch (action.type) {
@@ -22,4 +21,3 @@ export default function reducer(statePart = '', action = {}) {
       return statePart;
   }
 }
-
